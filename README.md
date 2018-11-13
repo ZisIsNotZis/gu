@@ -6,4 +6,4 @@ The best card game ever
 * Do not repeat yourself (e.g. use @get and @set decorator so that we do not need to handle event raising, hooking, etc. explicitly)
 
 ## LJCY
-Cyally who don't study python and write gugame is xie
+Cyally who don't learn python and write gugame is xie
