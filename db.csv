@@ -1,0 +1,3 @@
+universe,generic,hero+soldier,0,3,3,40,
+cyally,doveEmpire,dove+soldier,6,0,0,1,[Ignite][1PerTurn]Transpose all cards on the field
+zis,theEnvincibles,soldier,1,9,1,9,[Persist]Cannot be transposed except in battle phase;[Attack]Deal 3 damage to every non-soldier card on the field
