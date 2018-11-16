@@ -1,3 +1,5 @@
-universe,generic,hero+soldier,0,3,3,40,
-cyally,doveEmpire,dove+soldier,6,0,0,1,[Ignite][1PerTurn]Transpose all cards on the field
-zis,theEnvincibles,soldier,1,9,1,9,[Persist]Cannot be transposed except in battle phase;[Attack]Deal 3 damage to every non-soldier card on the field
+咕咕音,鸽子帝国,鸽子,3,3,3,3,你看见了描述
+咕咕蛋,鸽子帝国,鸽子+蛋,3,3,3,3,你看见了描述
+黑洞,鸽子帝国,魔法,3,3,3,3,你看见了描述
+厨卡,厨王帝国,战士,3,6,6,6,你看见了描述
+鸽子英雄,鸽子帝国,鸽子+英雄,0,3,3,3,40,还没写
