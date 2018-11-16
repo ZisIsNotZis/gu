@@ -1,9 +1,15 @@
 # GU
 The best card game ever
 
-## Development Guidline
-* Use Python as the game core and card script engine since it's easy to learn (easy to make core-level modification)
-* Do not repeat yourself (e.g. use @get and @set decorator so that we do not need to handle event raising, hooking, etc. explicitly)
+## 文件说明
+* gu.py: gu游核心，负责gu游绝大多数逻辑的实现以及与前端沟通，基本未完成
+* card.py: 卡片类，负责卡片本身的状态的管理以及脚本的管理，完全未完成
+* effect.py: 本来是效果类，现在效果是函数而不是类了，负责提供效果开发（即写卡）用的函数以及decorator
+* c几几.py: 每张卡片的脚本，几几是卡片id
+* db.csv: 卡片数据库（方便修改，不需要专门工具）
+* mycard.csv：样例卡组（其实不是csv，就是一行一个id）
+* ui.py: gu游ui（不存在的），负责用户交互
 
-## LJCY
-Cyally who don't learn python and write gugame is xie
+## 开发说明
+* 脚本重新设计了。现在基本上是半模块化的运行，参考现有的c几几文件。原则是尽可能的把大多数卡都要写的逻辑变成一个decorator
+* 想写脚本的话可以先照这样子写，不用管gu提供了哪些函数，按正常的意思命名就差不多
